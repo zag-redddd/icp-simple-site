@@ -1,14 +1,15 @@
 {
   "canisters": {
-    "icp_simple_site": {
+    "icp_simple_site":  {
       "frontend": {
-        "entrypoint": "src/index.html"
+        "entrypoint": "portfolio/index.html"
       },
-      "source": ["src"],
+      "source": ["portfolio"],
       "type": "assets"
     }
   },
   "dfx": "0.22.0",
+  
   "version": 1,
   "networks": {
     "local": {

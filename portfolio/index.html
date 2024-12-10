@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brent Lanuza | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            height: 100vh;
+            background: linear-gradient(to right, rgba(0, 123, 255, 0.8), rgba(0, 123, 255, 0.6)), url('https://via.placeholder.com/1920x1080');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background: #007BFF;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 30px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+        }
+        nav li {
+            margin: 15px 0;
+            width: 100%;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            display: block;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+            max-width: 1000px;
+        }
+        section {
+            margin-bottom: 40px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 220px;
+            right: 0;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brent Lanuza</h1> <!-- Fixed the closing tag -->
+        <p>Developer | Problem Solver | Student</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a passionate software developer with a focus on building efficient and scalable web and software solutions. I thrive on learning new technologies and solving complex problems.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: JavaScript, HTML, CSS, Java</li>
+                <li>Frameworks: React, Node.js, Spring Boot</li>
+                <li>Database: MySQL</li>
+                <li>Soft Skills: Problem-solving, Team Collaboration</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Laboratory Facility Management System:</strong> A Java-based application to streamline issue reporting and tracking for an institution. <em>(In Progress)</em></li>
+                <li><strong>Portfolio Website:</strong> A personal portfolio showcasing my skills and projects.</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p><strong>Intern, XYZ Solutions</strong> (Jan 2024 - Present)</p>
+            <ul>
+                <li>Developed RESTful APIs for various client projects.</li>
+                <li>Improved database query efficiency, reducing server response time by 20%.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: brentlanuza0008@gmail.com</p>
+            <p>Phone: +639657100159</p>
+            <p>GitHub: <a href="https://github.com/zag-redddd" target="_blank">github.com/zag-redddd</a></p>;
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Brent Lanuza. All rights reserved.</p>
+    </footer>
+</body>
+</html>
